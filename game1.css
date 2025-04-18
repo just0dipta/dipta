@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.webp');
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; /* Added for positioning the back button */
+}
+
+.container {
+    background: rgb(36, 36, 36);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #fffafa;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+p {
+    color: #ffffff;
+}
+
+.back-button {
+    position: absolute; /* Positioning the back button */
+    top: 20px; /* Adjusted for spacing */
+    right: 20px; /* Adjusted for spacing */
+    background-color: #ff0000; /* Blue color for the back button */
+    border: none; /* Remove border */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.back-button:hover {
+    background-color: #ff0000e5; /* Darker blue on hover */
+}
+
+.heart {
+    color: red;
+    font-size: 50px; /* Adjust size as needed */
+}

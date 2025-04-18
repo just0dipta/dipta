@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub</title>
+    <link rel="stylesheet" href="hub_game.css">
+    <style>
+        /* Additional styles for the back button */
+        .back-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background-color: #ff4d4d; /* Red background */
+            color: white; /* White text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .text-block {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: black; /* Change color as needed */
+        }
+        
+        .back-button:hover {
+            background-color: #ff1a1a; /* Darker red on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="game-hub">
+        <a href="dashboard.html" id="backButton" class="back-button">Back</a> <!-- Changed to anchor tag -->
+        <h1>Game Hub</h1>
+        <div class="game-options">
+            <a href="game1.html" class="game-option">
+                <img src="images/image1.jpeg" alt="Game 1">
+                <p>Guess the number</p>
+            </a>
+            <a href="game2.html" class="game-option">
+                <img src="images/arrow.jpg" alt="Game 2">
+                <p>archery</p>
+            </a>
+            <a href="game3.html" class="game-option">
+                <img src="images/sudoku.jpeg" alt="Game 3">
+                <p>Sudoku</p>
+            </a>
+            <a href="card.html" class="game-option">
+                <img src="images/card.jpeg" alt="Game 4">
+                <p>Card memory</p>
+            </a>
+            <a href="tes.html" class="game-option">
+                <img src="images/block.jpg" alt="Game 1">
+                <p>Block blast</p>
+            </a>
+            <a href="tetris.html" class="game-option">
+                <img src="images/tetris.jpeg" alt="Game 2">
+                <p>Tetris</p>
+            </a>
+            <a href="game3.html" class="game-option">
+                <img src="images/roulette.webp" alt="Game 3">
+                <p>rulette</p>
+            </a>
+            <a href="snake.html" class="game-option">
+                <img src="images/snake.jpeg" alt="Game 4">
+                <p>snake</p>
+            </a>
+            <a href="tb.html" class="game-option">
+                <img src="images/tb.png" alt="Game 4">
+                <p>tic tac toe</p>
+            </a>
+            <a href="chest.html" class="game-option">
+                <img src="images/chess.jpg" alt="Game 4">
+                <p>chess</p>
+            </a>
+        </div>
+    </div>
+    <div class="text-block">
+        
+    </div>
+    
+</body>
+</html>
